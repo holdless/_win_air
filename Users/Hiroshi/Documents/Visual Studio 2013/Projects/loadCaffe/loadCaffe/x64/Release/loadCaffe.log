@@ -1,0 +1,34 @@
+﻿Build started 2017/2/1 下午 04:26:19.
+     1>Project "C:\Users\Hiroshi\Documents\Visual Studio 2013\Projects\loadCaffe\loadCaffe\loadCaffe.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\loadCaffe.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\loadCaffe.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt loadCaffe.cpp
+         loadCaffe.cpp
+     1>C:\OpenCV_mkl\include\opencv2/core/mat.hpp(2586): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\OpenCV_mkl\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\OpenCV_mkl\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\OpenCV_mkl\include\opencv2/imgproc.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\OpenCV_mkl\include\opencv2/imgproc.hpp(596): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(30): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(66): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(68): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(69): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(70): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(71): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(72): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(85): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(86): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(92): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hiroshi\documents\visual studio 2013\projects\loadcaffe\loadcaffe\IhsorihGoogLeNetObjectRecognizer.h(95): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hiroshi\Documents\Visual Studio 2013\Projects\loadCaffe\x64\Release\loadCaffe.exe" /INCREMENTAL:NO /NOLOGO opencv_aruco320.lib opencv_bgsegm320.lib opencv_bioinspired320.lib opencv_calib3d320.lib opencv_ccalib320.lib opencv_core320.lib opencv_datasets320.lib opencv_dnn320.lib opencv_dpm320.lib opencv_face320.lib opencv_features2d320.lib opencv_flann320.lib opencv_fuzzy320.lib opencv_highgui320.lib opencv_imgcodecs320.lib opencv_imgproc320.lib opencv_line_descriptor320.lib opencv_ml320.lib opencv_objdetect320.lib opencv_optflow320.lib opencv_phase_unwrapping320.lib opencv_photo320.lib opencv_plot320.lib opencv_reg320.lib opencv_rgbd320.lib opencv_saliency320.lib opencv_shape320.lib opencv_stereo320.lib opencv_stitching320.lib opencv_structured_light320.lib opencv_superres320.lib opencv_surface_matching320.lib opencv_text320.lib opencv_tracking320.lib opencv_video320.lib opencv_videoio320.lib opencv_videostab320.lib opencv_xfeatures2d320.lib opencv_ximgproc320.lib opencv_xobjdetect320.lib opencv_xphoto320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hiroshi\Documents\Visual Studio 2013\Projects\loadCaffe\x64\Release\loadCaffe.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hiroshi\Documents\Visual Studio 2013\Projects\loadCaffe\x64\Release\loadCaffe.lib" /MACHINE:X64 x64\Release\loadCaffe.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         loadCaffe.vcxproj -> C:\Users\Hiroshi\Documents\Visual Studio 2013\Projects\loadCaffe\x64\Release\loadCaffe.exe
+     1>Done Building Project "C:\Users\Hiroshi\Documents\Visual Studio 2013\Projects\loadCaffe\loadCaffe\loadCaffe.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.77
